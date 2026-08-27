@@ -155,6 +155,28 @@ UTIOM is the overarching operating model. Supporting models add measurement dept
 
 ---
 
+## Join the UTIOM community
+
+UTIOM is an open, living framework intended to improve through practitioner experience, transparent peer review and evidence-backed challenge.
+
+Good ways to participate include:
+
+- share a real implementation story from an internal, outsourced, hybrid, cloud or OT/ICS security-operations environment;
+- propose a framework clarification, mapping, metric, assessment or implementation improvement;
+- contribute lessons from Threat Profiling, threat modelling, Telemetry Engineering, Detection Engineering, Detection QA, Purple Teaming or incident response;
+- review public releases and identify ambiguity, evidence gaps or practical implementation friction;
+- contribute to the quarterly **Kaizen community review** and improvement backlog.
+
+Start with [`COMMUNITY.md`](COMMUNITY.md), read [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md), then use the issue templates to participate.
+
+Current community starting points:
+
+- [Introduce yourself and what you want to improve](../../issues/1)
+- [Share a real UTIOM implementation story](../../issues/2)
+- [Quarterly Kaizen community improvement backlog](../../issues/3)
+
+---
+
 ## Relationship to established standards
 
 UTIOM does **not** replace MITRE ATT&CK, NIST, ISO, NIS2, DORA, SOC-CMM or other established frameworks and regulations.
