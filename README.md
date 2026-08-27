@@ -2,7 +2,7 @@
 
 **Security operations designed as one system, not disconnected silos.**
 
-**Current public framework release: v1.1 · August 2026**  
+**Current public framework release: v1.3 · August 2026**  
 **Canonical website: https://utiom.de**  
 **License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
@@ -13,6 +13,22 @@ The model is built around a simple premise: security operations should not begin
 > **Purpose first → strategy first → business consequence → relevant threats → attack paths → required evidence → engineered visibility → engineered detection → operational response → measurable improvement.**
 
 UTIOM treats security operations as a **living product**, a **living system**, and an **operating model for the security program** rather than a collection of independent SOC functions.
+
+---
+
+## Core diagrams
+
+### UTIOM operating model
+
+The operating model shows the three pillars, seven canonical phases, the engineering/operations OODA loop and the strategic decision-making feedback loop.
+
+![UTIOM operating model](diagrams/utiom-operating-model.svg)
+
+### UTIOM V-Model
+
+The V-model pairs design and intent on the left with validation and operation on the right. Each major design decision must be proven operationally rather than accepted as an assumption.
+
+![UTIOM V-Model](diagrams/utiom-v-model.svg)
 
 ---
 
@@ -81,6 +97,16 @@ Validation findings belong to the phase that owns the weakness. Missing evidence
 ## Assessment and measurement
 
 UTIOM includes public browser-based assessment instruments for maturity, capability, metrics and improvement planning. The objective is not maturity for its own sake, but measurable operational capability and demonstrable risk reduction.
+
+The current public site provides:
+
+- **Maturity Assessment — 50 staged criteria**
+- **Capability Assessment — 105 indicators**
+- **Metrics Calculator — 70 explicit metrics**
+- **Improvement Roadmap**
+- **Capability Dashboard**
+
+The public assessment tools run in the browser and are designed so assessment answers are not transmitted to a UTIOM backend.
 
 Start at: https://utiom.de
 
