@@ -22,13 +22,25 @@ UTIOM treats security operations as a **living product**, a **living system**, a
 
 The operating model shows the three pillars, seven canonical phases, the engineering/operations OODA loop and the strategic decision-making feedback loop.
 
-![UTIOM operating model](diagrams/utiom-operating-model.svg)
+<p align="center">
+  <a href="diagrams/utiom-operating-model.svg">
+    <img src="diagrams/utiom-operating-model.svg" alt="UTIOM operating model" width="1200">
+  </a>
+</p>
+
+<p align="center"><sub><b>Click the diagram to open the full-size SVG.</b></sub></p>
 
 ### UTIOM V-Model
 
 The V-model pairs design and intent on the left with validation and operation on the right. Each major design decision must be proven operationally rather than accepted as an assumption.
 
-![UTIOM V-Model](diagrams/utiom-v-model.svg)
+<p align="center">
+  <a href="diagrams/utiom-v-model.svg">
+    <img src="diagrams/utiom-v-model.svg" alt="UTIOM V-Model" width="1000">
+  </a>
+</p>
+
+<p align="center"><sub><b>Click the diagram to open the full-size SVG.</b></sub></p>
 
 ---
 
