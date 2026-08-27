@@ -1,0 +1,20 @@
+title: "[Announcement] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Maintainer announcement for UTIOM releases, framework updates, assessment changes, book editions, community reviews, events, or important project news.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Announcement
+      description: Explain what changed and why it matters to the UTIOM community.
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Relevant links or release material
+      description: Add links to the release, documentation, site, issue, roadmap, or supporting material.
+    validations:
+      required: false
