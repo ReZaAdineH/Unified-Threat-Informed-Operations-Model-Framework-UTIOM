@@ -36,7 +36,7 @@ The V-model pairs design and intent on the left with validation and operation on
 
 <p align="center">
   <a href="diagrams/utiom-v-model.svg">
-    <img src="diagrams/utiom-v-model.svg" alt="UTIOM V-Model" width="1000">
+    <img src="diagrams/utiom-v-model.svg" alt="UTIOM V-Model" width="1200">
   </a>
 </p>
 
