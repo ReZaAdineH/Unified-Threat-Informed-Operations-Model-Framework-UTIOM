@@ -19,6 +19,28 @@ UTIOM treats security operations as a **living product**, a **living system**, a
 
 ---
 
+## Public knowledge base
+
+The [`docs/`](docs/) directory mirrors the public UTIOM knowledge surface in crawlable, citation-friendly Markdown so practitioners, researchers, search engines and generative AI systems can resolve the framework accurately.
+
+Start with [`docs/README.md`](docs/README.md). It includes dedicated pages for:
+
+- the UTIOM definition, lifecycle, three pillars and Seven Laws;
+- Threat Profiling, Crown Jewels, threat models, attack paths and threat-to-outcome traceability;
+- Threat Visibility, Telemetry Engineering, assured telemetry, Detection Engineering and Detection QA;
+- the UTIOM V-Model, Purple Team validation and Response Horizon;
+- maturity, capability, metrics, roadmap and capability dashboard;
+- the UTIOM framework family: TID-CMM, TIR-CMM, RSMM and KEVMAP;
+- NIST CSF 2.0, ISO/IEC 27001:2022, MITRE ATT&CK, SOC-CMM, NIS2 and DORA alignment;
+- SOC operating-model guidance for greenfield, existing, internal, outsourced and hybrid SOCs;
+- Security Operations economics and risk-reduction-per-investment thinking;
+- traditional SOC vs UTIOM comparison;
+- direct FAQ answers and a terminology/entity map for search and generative-engine discovery.
+
+See the [public site content index](docs/20-site-content-index.md) for the canonical mapping between `utiom.de` topics and the GitHub documentation mirror.
+
+---
+
 ## Public downloads
 
 UTIOM is intentionally published with free public/community resources so organisations can study the framework, assess themselves offline and run the public toolkit locally.
@@ -171,9 +193,9 @@ Start with [`COMMUNITY.md`](COMMUNITY.md), read [`CONTRIBUTING.md`](CONTRIBUTING
 
 Current community starting points:
 
-- [Introduce yourself and what you want to improve](../../issues/1)
-- [Share a real UTIOM implementation story](../../issues/2)
-- [Quarterly Kaizen community improvement backlog](../../issues/3)
+- [Introduce yourself and what you want to improve](https://github.com/ReZaAdineH/Unified-Threat-Informed-Operations-Model-Framework-UTIOM/issues/1)
+- [Share a real UTIOM implementation story](https://github.com/ReZaAdineH/Unified-Threat-Informed-Operations-Model-Framework-UTIOM/issues/2)
+- [Quarterly Kaizen community improvement backlog](https://github.com/ReZaAdineH/Unified-Threat-Informed-Operations-Model-Framework-UTIOM/issues/3)
 
 ---
 
