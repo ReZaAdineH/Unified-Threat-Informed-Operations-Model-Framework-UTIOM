@@ -1,0 +1,39 @@
+title: "[General] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for broad UTIOM community conversation. For actionable repository changes, open an Issue instead.
+  - type: textarea
+    id: topic
+    attributes:
+      label: What would you like to discuss?
+      description: Describe the topic, question, observation, or community point you want to raise.
+      placeholder: Share enough context for others to understand the discussion.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Relevant UTIOM area
+      options:
+        - Vision and Strategy
+        - Crown Jewels and Threat Profiling
+        - Threat Modeling and Attack Paths
+        - Threat Visibility and Telemetry Engineering
+        - Threat Detection and Detection Engineering
+        - Detection QA and Purple Teaming
+        - Response and Response Horizon
+        - Metrics and Continuous Improvement
+        - Assessment Toolkit
+        - Standards Mapping
+        - Community and Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Community check
+      options:
+        - label: I have removed confidential, customer, credential, and production-sensitive information.
+          required: true
