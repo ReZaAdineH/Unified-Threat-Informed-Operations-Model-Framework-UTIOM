@@ -16,6 +16,24 @@ The community should help answer practical questions such as:
 - Which metrics demonstrate real capability and risk reduction rather than activity volume?
 - How should UTIOM map to MITRE ATT&CK, NIST, ISO, NIS2, DORA, SOC-CMM and other established models without being redefined by them?
 
+## Discussions vs Issues
+
+Use **GitHub Discussions** for conversation, learning, questions, implementation experience, research exchange and early-stage ideas.
+
+Use **GitHub Issues** for actionable work that should be tracked to completion, including documentation fixes, confirmed defects, scoped improvements, assessment/tool changes and agreed implementation tasks.
+
+Recommended Discussion routing:
+
+- **Announcements** — maintainer updates, releases, book editions, roadmap news and community-review outcomes.
+- **General** — broad UTIOM conversation and community topics.
+- **Q&A** — questions about interpreting or applying UTIOM.
+- **Ideas** — early-stage improvement proposals before they become scoped Issues.
+- **Show and tell** — UTIOM implementation stories, experiments, case studies, diagrams and practitioner lessons.
+
+Polls may be used selectively when genuine community input is useful, but canonical framework decisions are not decided by popularity alone.
+
+When a Discussion becomes specific enough to require implementation, it should be converted or restated as an Issue with a clear problem, scope and acceptance criteria.
+
 ## Ways to participate
 
 ### 1. Share implementation experience
@@ -24,7 +42,7 @@ Tell the community how you applied UTIOM in a real or lab environment, what work
 
 ### 2. Propose improvements
 
-Open an issue for corrections, clarifications, mappings, examples, diagrams, assessment improvements or implementation guidance.
+Use Discussions for early-stage ideas and Issues for concrete, trackable corrections, clarifications, mappings, examples, diagrams, assessment improvements or implementation guidance.
 
 ### 3. Contribute evidence
 
@@ -89,13 +107,24 @@ The model has ordered dependencies with iterative engineering and operational fe
 - Do not publish credentials, private infrastructure details or sensitive assessment data.
 - Attribute external sources and prior work appropriately.
 - Keep the public/community edition separate from private or future commercial implementation material.
+- Avoid vendor spam, unrelated promotion and repetitive low-value posts.
+- Do not use Discussions to bypass the contribution or licensing rules.
+
+## Moderation approach
+
+The goal is a technically serious but welcoming community. Moderation should prioritise signal, safety and professional conduct.
+
+Posts may be redirected, closed or removed when they are clearly off-topic, abusive, repetitive, promotional without community value, unsafe, disclose sensitive information, or repeatedly ignore the community structure.
+
+Healthy disagreement is welcome. Personal attacks and hostile behaviour are not.
 
 ## Where to start
 
 - Read the main [`README.md`](README.md).
 - Review [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - Read [`PUBLIC-COMMERCIAL-BOUNDARY.md`](PUBLIC-COMMERCIAL-BOUNDARY.md).
-- Use the issue templates under `.github/ISSUE_TEMPLATE/` to share feedback, implementation experience or improvement proposals.
+- Use GitHub Discussions for questions, ideas, implementation stories and community conversation.
+- Use the issue templates under `.github/ISSUE_TEMPLATE/` for actionable feedback or implementation work.
 - Visit the canonical site: https://utiom.de
 
 ## Community governance
