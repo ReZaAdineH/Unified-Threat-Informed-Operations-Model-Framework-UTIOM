@@ -2,7 +2,7 @@
 
 **Security operations designed as one system, not disconnected silos.**
 
-**Current framework release: v1.3 · August 2026**  
+**Current public framework release: v1.1 · August 2026**  
 **Canonical website: https://utiom.de**  
 **License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
