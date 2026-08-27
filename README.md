@@ -24,7 +24,7 @@ UTIOM is intentionally published with free public/community resources so organis
 | Public artifact | Current version | Access |
 | --- | ---: | --- |
 | UTIOM framework / website | **v1.3** | https://utiom.de |
-| Assessment workbook | **v1.3** | [`downloads/utiom-assessment-workbook-v1.3.xlsx`](downloads/utiom-assessment-workbook-v1.3.xlsx) |
+| Assessment workbook | **v1.3** | https://utiom.de/utiom-assessment-workbook.xlsx |
 | Complete self-hosted assessment toolkit | **v1.3** | https://utiom.de/utiom-assessment-toolkit.zip |
 | UTIOM Framework Book | **v1.1** | https://utiom.de/utiom-framework-v1.1.pdf |
 
