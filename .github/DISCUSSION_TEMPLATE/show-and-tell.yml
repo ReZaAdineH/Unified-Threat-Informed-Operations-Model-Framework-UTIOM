@@ -1,0 +1,41 @@
+title: "[Implementation Story] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category to share how you applied UTIOM, fully or partially, in a real environment, lab, consulting engagement, SOC design, detection programme, response-readiness exercise, or research project.
+  - type: textarea
+    id: context
+    attributes:
+      label: Starting context
+      description: Describe the environment and problem without exposing confidential information.
+    validations:
+      required: true
+  - type: textarea
+    id: application
+    attributes:
+      label: How UTIOM was applied
+      description: Which phases, concepts, assessments, engineering practices, or mappings did you use?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome and evidence
+      description: What changed? Include measurable or observable outcomes where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: lessons
+    attributes:
+      label: Lessons for the community
+      description: What worked, what did not, and what should others know?
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Publication check
+      options:
+        - label: I have removed customer, employer, credential, personal, and production-sensitive information.
+          required: true
