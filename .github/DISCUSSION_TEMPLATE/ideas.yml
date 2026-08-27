@@ -1,0 +1,34 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for ideas that could improve UTIOM, its public guidance, mappings, assessments, examples, diagrams, or community resources. Once an idea is concrete and ready for tracked implementation, it should move to an Issue.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Explain the operational or usability problem first.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed idea
+      description: Describe the smallest useful improvement and how it would help.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or practitioner context
+      description: Share experience, examples, references, validation findings, or other evidence where available.
+    validations:
+      required: false
+  - type: checkboxes
+    id: doctrine
+    attributes:
+      label: Canonical-model check
+      options:
+        - label: I understand that discussion is open, while changes to canonical UTIOM doctrine remain maintainer-governed.
+          required: true
