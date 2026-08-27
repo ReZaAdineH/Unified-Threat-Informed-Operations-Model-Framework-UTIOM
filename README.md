@@ -7,7 +7,9 @@
 **Canonical website: https://utiom.de**  
 **License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
-UTIOM is a lifecycle operating framework for cybersecurity and Security Operations Centers (SOCs). It connects leadership intent, threat understanding, engineering discipline, operational response and continuous improvement into one measurable, threat-informed system.
+UTIOM is an open cybersecurity and **Security Operations Center (SOC) operating framework** for **threat-informed defense, security architecture, threat modeling, telemetry engineering, detection engineering, incident response, purple teaming and continuous improvement**. It connects leadership intent, threat understanding, engineering discipline, operational response and measurable improvement into one connected system.
+
+**Focus areas:** Security Operations · SOC Architecture · Threat-Informed Defense · Threat Modeling · Telemetry Engineering · Detection Engineering · Incident Response · Threat Intelligence · Purple Teaming · MITRE ATT&CK · NIST CSF · SOC Maturity
 
 The model is built around a simple premise: security operations should not begin with tools, telemetry volume, alert counts or isolated controls. They should begin with purpose, business consequence and relevant threats, then engineer the visibility, detection and response capabilities required to protect what matters.
 
