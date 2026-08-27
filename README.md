@@ -54,7 +54,7 @@ The V-model pairs design and intent on the left with validation and operation on
 
 <p align="center">
   <a href="diagrams/utiom-v-model.svg">
-    <img src="diagrams/utiom-v-model.svg" alt="UTIOM V-Model" width="1200">
+    <img src="diagrams/utiom-v-model.svg" alt="UTIOM V-Model" width="1200" style="width:100%;max-width:1200px;height:auto;">
   </a>
 </p>
 
@@ -148,7 +148,7 @@ UTIOM is the overarching operating model. Supporting models add measurement dept
 
 - **TID-CMM — Threat-Informed Detection Capability Maturity Model** — https://tid-cmm.com
 - **TIR-CMM — Threat-Informed Response Capability Maturity Model** — https://tir-cmm.com
-- **RSMM — Realistic SIEM Maturity Model**
+- **RSMM — Realistic SIEM Maturity Model** — https://rsmm.rezaadineh.com/
 - **KEVMAP** — known-exploited-vulnerability and exposure context — https://kevmap.io
 
 ---
