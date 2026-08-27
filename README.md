@@ -3,6 +3,7 @@
 **Security operations designed as one system, not disconnected silos.**
 
 **Current public framework release: v1.3 · August 2026**  
+**Current UTIOM Framework Book: v1.1 — new edition coming soon**  
 **Canonical website: https://utiom.de**  
 **License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
@@ -13,6 +14,23 @@ The model is built around a simple premise: security operations should not begin
 > **Purpose first → strategy first → business consequence → relevant threats → attack paths → required evidence → engineered visibility → engineered detection → operational response → measurable improvement.**
 
 UTIOM treats security operations as a **living product**, a **living system**, and an **operating model for the security program** rather than a collection of independent SOC functions.
+
+---
+
+## Public downloads
+
+UTIOM is intentionally published with free public/community resources so organisations can study the framework, assess themselves offline and run the public toolkit locally.
+
+| Public artifact | Current version | Access |
+| --- | ---: | --- |
+| UTIOM framework / website | **v1.3** | https://utiom.de |
+| Assessment workbook | **v1.3** | [`downloads/utiom-assessment-workbook-v1.3.xlsx`](downloads/utiom-assessment-workbook-v1.3.xlsx) |
+| Complete self-hosted assessment toolkit | **v1.3** | https://utiom.de/utiom-assessment-toolkit.zip |
+| UTIOM Framework Book | **v1.1** | https://utiom.de/utiom-framework-v1.1.pdf |
+
+> **Book edition note:** the currently published book remains **v1.1**. The framework and toolkit have continued to evolve to v1.3. A **new edition of the UTIOM Framework Book is in preparation and will be published soon**. The existing v1.1 book is not being relabelled as v1.3.
+
+See [`downloads/README.md`](downloads/README.md) for the public distribution index and [`self-hosted/`](self-hosted/) for the Docker/nginx bootstrap configuration.
 
 ---
 
@@ -143,7 +161,7 @@ It provides an operating model that helps translate governance, threat knowledge
 
 ---
 
-## Repository scope and public/private boundary
+## Repository scope and public/commercial boundary
 
 This repository is the **public framework and community repository** for UTIOM.
 
@@ -154,13 +172,18 @@ It may contain:
 - public diagrams;
 - public mappings;
 - implementation guidance and examples;
-- assessment descriptions;
+- assessment descriptions and public assessment artifacts;
+- the public self-hosting/bootstrap configuration;
 - research and citation material;
 - change history.
 
-It intentionally does **not** expose the source code or operational details of the production UTIOM service. Production deployment configuration, infrastructure details, credentials, private automation, administrative functionality, internal APIs and non-public implementation material belong in separate private repositories.
+It intentionally does **not** expose private production infrastructure, credentials, private administrative functionality, proprietary enterprise automation, customer data, non-public APIs or future commercial implementation material that has not been intentionally released.
 
-**A publicly available framework or free service does not imply that the production implementation is open source.**
+**A publicly available framework, workbook or self-hosted community edition does not imply that every current or future UTIOM implementation is open source or must be provided free of charge.**
+
+Material intentionally released for free remains available under the licence stated for that material. Future commercial offerings may add enterprise scale, collaboration, integrations, assurance, automation, hosting and professional services without retroactively withdrawing the public edition.
+
+See [`PUBLIC-COMMERCIAL-BOUNDARY.md`](PUBLIC-COMMERCIAL-BOUNDARY.md).
 
 ---
 
