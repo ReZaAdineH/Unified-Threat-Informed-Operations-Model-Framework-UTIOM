@@ -1,0 +1,5 @@
+Contact: https://utiom.de
+Policy: https://github.com/ReZaAdineH/Unified-Threat-Informed-Operations-Model-Framework-UTIOM/security/policy
+Canonical: https://github.com/ReZaAdineH/Unified-Threat-Informed-Operations-Model-Framework-UTIOM/blob/main/.well-known/security.txt
+Preferred-Languages: en
+Expires: 2027-08-28T00:00:00.000Z
