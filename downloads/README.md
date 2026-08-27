@@ -1,13 +1,13 @@
 # UTIOM public downloads
 
-This directory indexes the public UTIOM artifacts that are intentionally released for free use.
+This directory indexes the public UTIOM artifacts that are intentionally released for free use. The canonical downloadable binaries are hosted on **utiom.de**, while this repository contains the public framework documentation, diagrams and self-hosting/bootstrap configuration.
 
 ## Current public versions
 
-| Artifact | Version | Download / location |
+| Artifact | Version | Official download / location |
 | --- | --- | --- |
 | UTIOM framework / website | **v1.3** | https://utiom.de |
-| Assessment workbook | **v1.3** | [`utiom-assessment-workbook-v1.3.xlsx`](./utiom-assessment-workbook-v1.3.xlsx) |
+| Assessment workbook | **v1.3** | https://utiom.de/utiom-assessment-workbook.xlsx |
 | Complete self-hosted toolkit | **v1.3** | https://utiom.de/utiom-assessment-toolkit.zip |
 | UTIOM Framework Book | **v1.1** | https://utiom.de/utiom-framework-v1.1.pdf |
 
@@ -30,7 +30,11 @@ The v1.3 workbook contains the public offline assessment material across:
 
 ## Self-hosted toolkit
 
-The complete v1.3 package includes the static public site and assessment instruments together with Docker/nginx configuration for running the toolkit locally. The Docker bootstrap files are also documented under [`../self-hosted/`](../self-hosted/).
+The complete v1.3 package includes the static public site and assessment instruments together with Docker/nginx configuration for running the toolkit locally. The Docker bootstrap files are also published under [`../self-hosted/`](../self-hosted/).
+
+## Integrity checks
+
+SHA-256 checksums for the currently published artifacts are recorded in [`CHECKSUMS.sha256`](CHECKSUMS.sha256).
 
 ## Public-use commitment
 
