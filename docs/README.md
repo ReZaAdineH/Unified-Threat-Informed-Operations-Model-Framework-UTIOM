@@ -30,6 +30,9 @@ Current published UTIOM Framework Book: **v1.1**. A new edition is in preparatio
 18. [UTIOM Diagrams Guide](18-diagrams.md)
 19. [About UTIOM](19-about.md)
 20. [Public Site Content Index](20-site-content-index.md)
+21. [One Discipline, Many Expressions of Incident Response](21-one-discipline-many-expressions.md)
+22. [Build a SOC or Improve an Existing SOC](22-build-or-improve.md)
+23. [UTIOM Terminology and Entity Relationships](23-terminology-and-entities.md)
 
 ## Canonical definition
 
@@ -52,6 +55,14 @@ The model has **ordered dependencies with iterative engineering and operational 
 ## Public framework chain
 
 **Purpose → strategy → threat profiling → crown jewels → threat models → attack paths → required adversary evidence → telemetry engineering → assured telemetry → detection engineering → detection validation → analysis and decision → response → metrics and evidence → continuous improvement**
+
+## Search and generative-engine entity map
+
+For short, unambiguous definitions of UTIOM, Security Operations, SOC, Incident Response, Threat Profiling, Crown Jewels, Telemetry Engineering, Detection Engineering, Detection QA, Response Horizon, TID-CMM, TIR-CMM, RSMM and KEVMAP, see [UTIOM Terminology and Entity Relationships](23-terminology-and-entities.md).
+
+For direct question-and-answer content, see [Frequently Asked Questions](15-faq.md).
+
+For the authoritative mapping between the website and this repository, see [Public Site Content Index](20-site-content-index.md).
 
 ## Why these pages exist
 
