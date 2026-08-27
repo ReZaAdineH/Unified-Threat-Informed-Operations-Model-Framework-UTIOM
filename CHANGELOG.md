@@ -2,6 +2,15 @@
 
 UTIOM is a living framework. This changelog records public framework releases and material documentation changes.
 
+## v1.3 — August 2026
+
+- Current public UTIOM framework release reflected by the canonical website.
+- Published the canonical UTIOM V-Model in the public repository.
+- Published the full UTIOM operating-model architecture showing the three pillars, seven phases and dual OODA feedback loops.
+- Added the current public assessment set: 50 staged maturity criteria, 105 capability indicators, 70 metrics, improvement roadmap and capability dashboard.
+- Strengthened the public explanation of the framework family and the role of TID-CMM, TIR-CMM, RSMM and KEVMAP.
+- Preserved the public/private boundary: framework documentation and selected public artifacts are public; production implementation, deployment details and private operational code remain outside this repository.
+
 ## v1.1 — August 2026
 
 - Published the public assessment instruments for maturity, capability and metrics.
