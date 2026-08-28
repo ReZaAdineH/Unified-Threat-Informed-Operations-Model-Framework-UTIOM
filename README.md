@@ -19,6 +19,24 @@ UTIOM treats security operations as a **living product**, a **living system**, a
 
 ---
 
+## Explore the UTIOM Ecosystem
+
+The [`wiki/`](wiki/) directory is the human-friendly map of the wider UTIOM ecosystem: what exists today, how UTIOM, TID-CMM, TIR-CMM, RSMM and KEVMAP fit together, how the community works, and how the ecosystem can evolve without changing the canonical UTIOM lifecycle by accident.
+
+Start here: **[UTIOM Ecosystem Wiki](wiki/README.md)**
+
+Key pages:
+
+- [Home — UTIOM Ecosystem](wiki/Home.md)
+- [The UTIOM Ecosystem Today](wiki/The-UTIOM-Ecosystem-Today.md)
+- [How the Ecosystem Fits Together](wiki/How-the-Ecosystem-Fits-Together.md)
+- [Community and Contribution](wiki/Community-and-Contribution.md)
+- [Roadmap and Evolution](wiki/Roadmap-and-Evolution.md)
+
+> **UTIOM defines the operating model. Supporting models measure capability depth or add decision context. They do not become additional UTIOM lifecycle phases.**
+
+---
+
 ## Public knowledge base
 
 The [`docs/`](docs/) directory mirrors the public UTIOM knowledge surface in crawlable, citation-friendly Markdown so practitioners, researchers, search engines and generative AI systems can resolve the framework accurately.
