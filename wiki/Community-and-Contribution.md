@@ -19,6 +19,12 @@ Slack is the fast collaboration layer for:
 
 The Slack workspace is organised around the ecosystem rather than separate workspaces for each model.
 
+**UTIOM Ecosystem Slack workspace:** https://utiom-ecosystem.slack.com/  
+**Ecosystem-wide channel:** https://utiom-ecosystem.slack.com/archives/C0BU405DT9N  
+**Channel:** `#all-utiom-ecosystem`
+
+The current Slack links open the workspace for existing members. A reusable public invitation link should replace or supplement them when one becomes available.
+
 Current channel structure includes:
 
 - `#all-utiom-ecosystem`
