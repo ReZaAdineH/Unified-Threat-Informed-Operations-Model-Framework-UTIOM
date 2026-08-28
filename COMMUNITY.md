@@ -2,6 +2,24 @@
 
 UTIOM is an open, living framework. The community exists to improve the framework through transparent sharing, practitioner experience, peer review and evidence-backed challenge while preserving the canonical UTIOM architecture and philosophy.
 
+## UTIOM Ecosystem Slack
+
+The UTIOM public GitHub community is connected to the **UTIOM Ecosystem Slack workspace** for faster practitioner discussion and working collaboration.
+
+- **Workspace:** https://utiom-ecosystem.slack.com/
+- **Ecosystem channel:** https://utiom-ecosystem.slack.com/archives/C0BU405DT9N
+- **Channel:** `#all-utiom-ecosystem`
+
+The current Slack links open the workspace for existing members. A reusable public invitation link should replace or supplement them when one is available.
+
+Slack and GitHub have different roles:
+
+> **Slack is for conversation. GitHub is where durable knowledge, evidence and accepted framework changes live.**
+
+Use Slack for fast questions, practitioner exchange, working discussions and early ideas. When a discussion produces a framework clarification, implementation pattern, model challenge, standards mapping, evidence-backed proposal or other reusable knowledge, move the durable result into the relevant GitHub Discussion, Issue or Pull Request.
+
+The Slack workspace also contains focused channels for `#utiom`, `#tid-cmm`, `#tir-cmm`, `#community-contributions` and `#social`, while `#all-utiom-ecosystem` remains the ecosystem-wide starting point.
+
 ## Community purpose
 
 The UTIOM community is for practitioners, researchers, architects, SOC leaders, detection engineers, incident responders, threat-intelligence professionals, security engineers, auditors and educators who want to improve how security operations are designed, measured and continuously improved.
@@ -123,7 +141,8 @@ Healthy disagreement is welcome. Personal attacks and hostile behaviour are not.
 - Read the main [`README.md`](README.md).
 - Review [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - Read [`PUBLIC-COMMERCIAL-BOUNDARY.md`](PUBLIC-COMMERCIAL-BOUNDARY.md).
-- Use GitHub Discussions for questions, ideas, implementation stories and community conversation.
+- Join the UTIOM Ecosystem Slack workspace for live practitioner collaboration: https://utiom-ecosystem.slack.com/
+- Use GitHub Discussions for durable questions, ideas, implementation stories and community conversation.
 - Use the issue templates under `.github/ISSUE_TEMPLATE/` for actionable feedback or implementation work.
 - Visit the canonical site: https://utiom.de
 
