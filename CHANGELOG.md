@@ -15,7 +15,7 @@ UTIOM is a living framework. This changelog records public framework releases an
 - Added gap-driven optional improvement paths to TID-CMM, TIR-CMM, RSMM and Threat Hunting without blending those models into UTIOM scoring.
 - Updated the public workbook and self-hosted assessment toolkit to v1.4 while keeping the UTIOM Framework Book at edition v1.2.
 - Hardened the public Docker bootstrap to nginx 1.30.4-alpine, image version 1.4, non-root/read-only execution, dropped capabilities and no-new-privileges.
-- Standardised the historical UTIOM origin description to **circa 2018**.
+- Preserved the canonical historical UTIOM origin description as **circa 2016**.
 - Introduced a split licensing boundary: public framework/content remains under CC BY-SA 4.0; software/self-hosted implementation is provided under PolyForm Internal Use 1.0.0; free non-software assessment instruments use the UTIOM Free Assessment Use Terms; future enterprise functionality remains separately licensed/proprietary.
 - Historical copies remain subject to the licence under which those copies were originally distributed.
 

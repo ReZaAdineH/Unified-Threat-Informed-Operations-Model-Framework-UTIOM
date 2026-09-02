@@ -17,7 +17,7 @@ Current version relationship:
 
 The versions are deliberately distinct. The v1.4 assessment architecture is not yet being relabelled as Book v1.3 or v1.4.
 
-The canonical historical origin description is **circa 2018**.
+The canonical historical origin description is **circa 2016**.
 
 The previous Book v1.1 remains part of the release history and should not be overwritten or relabelled.
 
