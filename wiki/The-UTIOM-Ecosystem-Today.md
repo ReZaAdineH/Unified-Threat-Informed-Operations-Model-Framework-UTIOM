@@ -1,103 +1,55 @@
 # The UTIOM Ecosystem Today
 
-The UTIOM Ecosystem is currently composed of an overarching operating model, specialist capability maturity models, a SIEM/platform maturity model, exploitation-context support, public assessment resources and a growing practitioner community.
+The UTIOM Ecosystem combines an overarching operating model, specialist capability models, a SIEM/platform maturity model, threat-hunting support, exploitation context, assessment resources and a practitioner community.
 
-The ecosystem is deliberately modular. Each component has a specific role and should not be stretched beyond that role.
+## UTIOM
 
-## UTIOM — Unified Threat-Informed Operations Model
+Role: overarching Security Operations operating model.  
+Current framework release: **v1.4**.  
+Website: https://utiom.de
 
-**Role:** overarching Security Operations operating model.
+Canonical architecture:
 
-UTIOM connects business purpose, strategy, threat understanding, Crown Jewels, attack paths, required adversary evidence, Telemetry Engineering, Detection Engineering, response and measurable improvement into one connected system.
+- 3 pillars — Leadership & Governance; Engineering & Enablement; Operations & Analysis.
+- Leadership & Governance — management and control plane.
+- 7 phases — Vision → Strategy → Crown Jewels → Threat Visibility → Threat Detection → Response → Continuous Improvement.
+- 3 cross-cutting enablers — Talent, Validation, Threat Hunting.
+- STRATA — Strategy, Talent, Resilience, Automation, Telemetry, Adaptability.
+- 3 assessment tiers — Strategic & Governance Foundation; Engineering & Operational Capability; Assurance & Evolution.
 
-Canonical lifecycle:
+## TID-CMM
 
-**Vision → Strategy → Crown Jewels → Threat Visibility → Threat Detection → Response → Continuous Improvement**
+Role: deeper threat-informed detection/visibility assessment.  
+Website: https://tid-cmm.com
 
-Canonical pillars:
+## TIR-CMM
 
-- Leadership & Governance
-- Engineering & Enablement
-- Operations & Analysis
+Role: deeper response-readiness assessment.  
+Website: https://tir-cmm.com
 
-Current public framework release: **v1.3**.
+## RSMM
 
-Canonical site: https://utiom.de
+Role: SIEM and monitoring-platform maturity. It is most relevant when platform, telemetry, detection support or integration weaknesses require deeper analysis.  
+Website: https://rsmm.rezaadineh.com/
 
-## TID-CMM — Threat-Informed Detection Capability Maturity Model
+## Threat Hunting / Daily Hunt
 
-**Role:** specialist measurement of detection capability depth.
-
-TID-CMM asks whether relevant adversary behaviour can actually be seen, whether the required telemetry exists, whether detections are engineered and whether claimed capability has been validated.
-
-It deepens the detection-engineering span of the UTIOM operating model. It does not replace UTIOM and does not create another UTIOM lifecycle phase.
-
-Canonical site: https://tid-cmm.com
-
-Public repository: https://github.com/ReZaAdineH/tid-cmm
-
-## TIR-CMM — Threat-Informed Response Capability Maturity Model
-
-**Role:** specialist measurement of response capability depth.
-
-TIR-CMM asks whether the organisation can make the right containment and response decision and execute it in time, with evidence around authority, engineering, validation and response tempo.
-
-It deepens the response span of UTIOM while remaining a separate capability model.
-
-Canonical site: https://tir-cmm.com
-
-Public repository: https://github.com/ReZaAdineH/tir-cmm
-
-## RSMM — Realistic SIEM Maturity Model
-
-**Role:** SIEM and monitoring-platform maturity.
-
-RSMM focuses on the maturity and practical effectiveness of the SIEM/monitoring platform layer that supports Security Operations. It is not the UTIOM lifecycle itself and should not be treated as a substitute for threat-informed operating-model design.
-
-Canonical site: https://rsmm.rezaadineh.com/
+Role: deeper operational hunting practice and practical hunt ideas. Threat Hunting is a cross-cutting UTIOM enabler, not a lifecycle phase.  
+Website: https://hunt.utiom.de/
 
 ## KEVMAP
 
-**Role:** exploited-vulnerability and exposure context.
+Role: exploited-vulnerability and exposure context. It sharpens prioritisation and is neither a maturity model nor a lifecycle phase.  
+Website: https://kevmap.io
 
-KEVMAP provides exploitation and exposure context that can sharpen prioritisation across Strategy, Crown Jewels, Threat Visibility and Threat Detection.
+## Assessment and improvement
 
-KEVMAP is **not a maturity model** and **not a UTIOM lifecycle phase**.
-
-Canonical site: https://kevmap.io
-
-## Assessment and assurance resources
-
-UTIOM currently provides public assessment resources for:
-
-- maturity assessment;
-- capability assessment;
-- metrics;
-- improvement planning;
-- capability dashboarding.
-
-TID-CMM and TIR-CMM provide specialist assessment depth for detection and response respectively.
-
-The ecosystem direction is toward stronger evidence and assurance, not more scorecards for their own sake.
-
-## Community
-
-The ecosystem now includes:
-
-- public GitHub repositories;
-- community contribution guidance;
-- issue templates;
-- GitHub Discussions where enabled;
-- coordinated vulnerability-reporting guidance;
-- a Slack practitioner community for live collaboration.
-
-The community is expected to challenge models constructively, contribute operational evidence and move durable findings back into GitHub.
+UTIOM v1.4 provides 50 staged maturity criteria, 105 capability indicators, 70 metrics, an improvement roadmap and a capability dashboard. The roadmap can recommend specialist ecosystem paths based on gaps, but those paths do not inflate UTIOM scoring.
 
 ## Current ecosystem principle
 
-A useful shorthand is:
-
-**UTIOM decides direction.**  
-**Capability models measure depth.**  
+**UTIOM decides system direction.**  
+**Specialist models measure depth.**  
 **Context services sharpen prioritisation.**  
-**Assessment and assurance show whether the system is actually improving.**
+**Improvement services help practitioners act on identified gaps.**  
+**Assurance and evidence determine what can credibly be claimed.**

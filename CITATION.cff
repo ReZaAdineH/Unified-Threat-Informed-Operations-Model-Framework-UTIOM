@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 title: "Unified Threat-Informed Operations Model (UTIOM)"
-message: "If you use UTIOM in research, presentations, internal programmes, or academic work, please cite this framework."
+message: "If you use UTIOM in research, presentations, internal programmes, or academic work, please cite the framework and credit Reza Adineh."
 type: software
 authors:
   - family-names: "Adineh"
     given-names: "Reza"
-version: "1.3"
-date-released: "2026-08"
+version: "1.4"
+date-released: "2026-09-02"
 url: "https://utiom.de"
 repository-code: "https://github.com/ReZaAdineH/Unified-Threat-Informed-Operations-Model-Framework-UTIOM"
 license: "CC-BY-SA-4.0"
@@ -20,7 +20,8 @@ keywords:
   - threat modeling
   - cybersecurity
 abstract: >-
-  UTIOM is a threat-informed lifecycle operating framework that connects leadership intent,
-  business consequence, threat understanding, telemetry engineering, detection engineering,
-  operational response, measurement, and continuous improvement into one coherent security
-  operations system.
+  UTIOM is a threat-informed Security Operations operating framework that connects leadership
+  and governance, business consequence, threat understanding, telemetry and detection engineering,
+  operational response, validation, evidence and continuous improvement into one coherent system.
+  Version 1.4 adds a system-integrity assessment view while preserving the canonical three pillars,
+  seven lifecycle phases and three cross-cutting enablers.

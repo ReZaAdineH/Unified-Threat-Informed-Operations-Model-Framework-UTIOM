@@ -2,55 +2,64 @@
 
 Thank you for your interest in improving the Unified Threat-Informed Operations Model.
 
-UTIOM welcomes practitioner, researcher, academic and community feedback. Contributions are especially useful when they improve clarity, implementation guidance, standards alignment, validation methods, measurement, or real-world applicability.
-
-## Good contribution areas
-
-Examples include:
-
-- corrections to terminology or documentation;
-- clearer implementation examples;
-- mappings to recognised standards and frameworks;
-- threat-informed engineering examples;
-- telemetry and detection validation approaches;
-- response-readiness and exercising practices;
-- measurement and evidence approaches;
-- practical lessons from SOC design or improvement programmes;
-- evidence-backed criticism of the framework.
+UTIOM welcomes practitioner, researcher, academic and community feedback, especially evidence-backed improvements to clarity, implementation guidance, standards alignment, validation, measurement and real-world applicability.
 
 ## Canonical architecture
 
-UTIOM has seven canonical lifecycle phases:
+Seven lifecycle phases:
 
 **Vision → Strategy → Crown Jewels → Threat Visibility → Threat Detection → Response → Continuous Improvement**
 
-Its three formal operating pillars are:
+Three operating pillars:
 
-- **Leadership & Governance**
+- **Leadership & Governance** — management and control plane
 - **Engineering & Enablement**
 - **Operations & Analysis**
 
-Contributions may clarify, test, map or extend implementation guidance around the model. They should not silently redefine the canonical lifecycle, replace UTIOM with another framework, or introduce incompatible terminology as if it were authoritative.
+Three cross-cutting enablers:
 
-Material changes to the canonical UTIOM architecture and doctrine remain maintainer-governed so the framework does not fragment into competing interpretations.
+- **Talent**
+- **Validation**
+- **Threat Hunting**
+
+The cross-cutting enablers are not lifecycle phases.
+
+STRATA remains the organisational enabling lens: **Strategy, Talent, Resilience, Automation, Telemetry, Adaptability**.
+
+The v1.4 assessment tiers are an additional system-integrity view and do not replace the pillars, lifecycle or enablers.
+
+Material changes to canonical UTIOM architecture and doctrine remain maintainer-governed so the framework does not fragment into competing interpretations.
+
+## Good contribution areas
+
+- terminology or documentation corrections;
+- implementation examples;
+- standards mappings;
+- threat-informed engineering examples;
+- telemetry, detection and response validation;
+- measurement and evidence approaches;
+- practitioner implementation lessons;
+- evidence-backed criticism of the framework.
 
 ## Before opening a pull request
-
-Please:
 
 1. Check whether the topic is already covered.
 2. Explain the problem or improvement clearly.
 3. Keep terminology consistent with the canonical model.
 4. Distinguish evidence-backed claims from opinion.
-5. Cite external standards or research when relevant.
-6. Avoid including credentials, private implementation details, customer information or production security data.
-
-## Issues
-
-Public issues are appropriate for documentation bugs, conceptual questions, mapping suggestions and non-sensitive improvement proposals.
-
-Do not use public issues for suspected vulnerabilities in production UTIOM services. See [SECURITY.md](SECURITY.md).
+5. Cite external standards or research where relevant.
+6. Do not include credentials, customer data, production security data or proprietary implementation material.
 
 ## Licensing of contributions
 
-By contributing material to this repository, you agree that your contribution may be distributed under the repository's applicable public license unless explicitly agreed otherwise with the maintainer.
+This repository uses a split licensing model. By contributing, you agree that accepted contributions may be distributed under the licence applicable to the area you contribute to:
+
+- framework/documentation/diagrams: CC BY-SA 4.0;
+- software/self-hosted implementation: PolyForm Internal Use License 1.0.0;
+- assessment material: the applicable UTIOM assessment terms.
+
+If you do not agree to the applicable licence, do not submit the contribution without first reaching a separate written agreement with the maintainer.
+
+See [`LICENSE`](LICENSE).
+
+For sensitive security issues, follow [`SECURITY.md`](SECURITY.md) rather than opening a public issue.

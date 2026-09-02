@@ -1,0 +1,34 @@
+UTIOM — Licensing Map
+=====================
+
+Copyright © 2026 Reza Adineh. All rights reserved except for the rights expressly granted under the applicable licence below.
+
+UTIOM uses a split licensing model. Different parts of the public ecosystem have different terms.
+
+1. Framework, methodology, Book, diagrams and public framework documentation
+   Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+   See LICENSE-FRAMEWORK.md.
+
+2. Software and self-hosted implementation
+   PolyForm Internal Use License 1.0.0.
+   See LICENSE-SOFTWARE.md.
+
+3. Assessment workbook and free assessment instruments
+   Free personal, internal organisational, educational, academic-research and practitioner-evaluation use under the UTIOM Free Assessment Use Terms.
+   See LICENSE-ASSESSMENT.md.
+
+4. Future enterprise and commercial product functionality
+   Not granted under the public/free licences. APIs, automated evidence collection, continuous assurance, integrations, benchmarking, multi-team workflows, enterprise reporting, access controls, managed services and other unreleased or commercial capabilities remain proprietary unless separately licensed in writing.
+
+Free access or public availability does not transfer ownership of UTIOM, its software architecture, product implementation, unreleased intellectual property or future enterprise capabilities.
+
+Historical copies remain governed by the licence under which those copies were originally released. Nothing in this licensing map attempts to revoke rights already granted for earlier copies.
+
+Canonical attribution when UTIOM is cited or results are published:
+
+UTIOM — Unified Threat-Informed Operations Model by Reza Adineh
+https://utiom.de
+
+The UTIOM name and branding may not be used to imply ownership, endorsement, partnership or official status without permission.
+
+Canonical website: https://utiom.de

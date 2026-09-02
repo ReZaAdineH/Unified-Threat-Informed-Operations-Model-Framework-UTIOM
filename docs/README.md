@@ -1,18 +1,16 @@
 # UTIOM Public Knowledge Base
 
-This directory mirrors the public knowledge surface of the canonical UTIOM website in a search-friendly, citation-friendly form.
+Canonical website: https://utiom.de  
+Current public framework release: **v1.4 · September 2026**  
+Current UTIOM Framework Book: **v1.2**
 
-Canonical website: https://utiom.de
-
-Current public framework release: **v1.3 · August 2026**
-
-Current published UTIOM Framework Book: **v1.1**. A new edition is in preparation.
+This directory mirrors the public knowledge surface of UTIOM in search-friendly, citation-friendly Markdown.
 
 ## Start here
 
 1. [UTIOM Overview](01-overview.md)
 2. [Philosophy and Seven Laws](02-philosophy-and-seven-laws.md)
-3. [Lifecycle and Three Pillars](03-lifecycle-and-pillars.md)
+3. [Lifecycle, Pillars and Cross-Cutting Enablers](03-lifecycle-and-pillars.md)
 4. [Threat-to-Outcome Traceability](04-threat-to-outcome-traceability.md)
 5. [Validation and the UTIOM V-Model](05-validation-and-v-model.md)
 6. [Assessment, Measurement and Improvement](06-assessment-and-improvement.md)
@@ -33,37 +31,22 @@ Current published UTIOM Framework Book: **v1.1**. A new edition is in preparatio
 21. [One Discipline, Many Expressions of Incident Response](21-one-discipline-many-expressions.md)
 22. [Build a SOC or Improve an Existing SOC](22-build-or-improve.md)
 23. [UTIOM Terminology and Entity Relationships](23-terminology-and-entities.md)
-
-## Canonical definition
-
-**UTIOM stands for the Unified Threat-Informed Operations Model.** It is a lifecycle framework and operating model for cybersecurity and security operations centers (SOCs), connecting business strategy, threat-informed engineering, incident response and continuous improvement into one measurable system focused on real-world adversary behaviour and business consequence.
+24. [Licensing and Free/Enterprise Boundary](24-licensing.md)
 
 ## Canonical architecture
 
-Seven phases:
+**Three pillars:** Leadership & Governance; Engineering & Enablement; Operations & Analysis. Leadership & Governance acts as the management and control plane.
 
-**Vision → Strategy → Crown Jewels → Threat Visibility → Threat Detection → Response → Continuous Improvement**
+**Seven phases:** Vision → Strategy → Crown Jewels → Threat Visibility → Threat Detection → Response → Continuous Improvement.
 
-Three pillars:
+**Three cross-cutting enablers:** Talent, Validation, Threat Hunting. They are not phases.
 
-- **Leadership & Governance**
-- **Engineering & Enablement**
-- **Operations & Analysis**
+**STRATA:** Strategy, Talent, Resilience, Automation, Telemetry, Adaptability. STRATA is an organisational enabling lens, not a score source.
 
-The model has **ordered dependencies with iterative engineering and operational feedback loops**. It is not a rigid waterfall.
+**v1.4 assessment tiers:** Strategic & Governance Foundation; Engineering & Operational Capability; Assurance & Evolution. They provide a system-integrity view and do not replace the canonical architecture.
 
 ## Public framework chain
 
-**Purpose → strategy → threat profiling → crown jewels → threat models → attack paths → required adversary evidence → telemetry engineering → assured telemetry → detection engineering → detection validation → analysis and decision → response → metrics and evidence → continuous improvement**
+**Business consequence → Crown Jewel → asset/dependency → relevant adversary → realistic attack path → ATT&CK behaviour → required evidence → telemetry → detection/hunt → analysis → decision → response → validation → governance review → strategy/investment change**
 
-## Search and generative-engine entity map
-
-For short, unambiguous definitions of UTIOM, Security Operations, SOC, Incident Response, Threat Profiling, Crown Jewels, Telemetry Engineering, Detection Engineering, Detection QA, Response Horizon, TID-CMM, TIR-CMM, RSMM and KEVMAP, see [UTIOM Terminology and Entity Relationships](23-terminology-and-entities.md).
-
-For direct question-and-answer content, see [Frequently Asked Questions](15-faq.md).
-
-For the authoritative mapping between the website and this repository, see [Public Site Content Index](20-site-content-index.md).
-
-## Why these pages exist
-
-The canonical site remains the authoritative public presentation. These Markdown pages make the same public concepts easier to discover, quote, cite, compare and discuss through search engines, AI systems, researchers and the GitHub community.
+The canonical site remains the authoritative public presentation. These Markdown pages make the public concepts easier to discover, cite, compare and discuss.

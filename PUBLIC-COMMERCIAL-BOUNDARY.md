@@ -1,62 +1,68 @@
-# UTIOM public and commercial boundary
+# UTIOM public, free-tier and commercial boundary
 
-UTIOM is intentionally published as a public framework with freely available community resources. This document explains how those public resources coexist with possible future commercial or enterprise offerings.
+UTIOM is intentionally designed to maximise practitioner usefulness and adoption without transferring ownership of the complete product or requiring future enterprise capabilities to be released for free.
 
-## What is intentionally public
+## Public framework
 
-The following may be released as part of the public/community UTIOM edition:
+The intentionally published UTIOM framework, methodology, Book, framework diagrams and public framework documentation remain openly available under the applicable framework/content licence, currently CC BY-SA 4.0 where stated.
 
-- framework doctrine, terminology and lifecycle documentation;
-- public diagrams and standards mappings;
-- the published UTIOM Framework Book;
-- public assessment workbook and browser-based assessment instruments;
-- the public self-hosted/static assessment toolkit;
-- Docker/nginx configuration required to run that public edition locally;
-- public examples, implementation guidance and citation material.
+This supports reading, citation, research, education, discussion and adaptation under the terms of that licence.
 
-Material already released publicly remains governed by the licence stated for that material. A later commercial offering does not retroactively withdraw permissions already granted under that licence.
+## Free Tier and assessment instruments
 
-## What public availability does not mean
+The current free assessment experience is intended for personal use, internal organisational/business use, education, academic research and practitioner evaluation.
 
-Publishing the framework or community toolkit does **not** mean that every current or future UTIOM implementation must be open source or free of charge.
+Users retain their own assessment answers, organisational data and generated results.
 
-Public release does not grant access to, or require publication of:
+Free access does **not** mean transfer of ownership of UTIOM or unrestricted rights to repackage, resell, white-label, sublicense or reproduce the UTIOM assessment implementation as a competing product or hosted service.
+
+See `LICENSE-ASSESSMENT.md` for the free non-software assessment terms.
+
+## Software and self-hosted toolkit
+
+The browser/software implementation and self-hosted software components are source-available for permitted internal use under the licence identified in `LICENSE-SOFTWARE.md`.
+
+The current software licence is **PolyForm Internal Use License 1.0.0**. It permits internal business use but does not grant redistribution rights.
+
+This is not an OSI open-source software licence.
+
+## What remains outside the public/free grant
+
+Public availability does not grant rights to or require publication of:
 
 - private production infrastructure;
-- credentials, secrets or deployment configuration;
-- private administrative functionality or internal APIs;
+- credentials, secrets or private deployment configuration;
+- non-public APIs or administrative functionality;
 - proprietary enterprise automation and orchestration;
-- private scoring, assurance or commercial service logic not intentionally released;
-- customer data or organisation-specific assessment evidence;
+- automated evidence collection and evidence registries;
+- continuous assurance services;
+- benchmarking datasets or services;
+- multi-team/reviewer workflows and historical enterprise assessment management;
+- enterprise reporting, access control and integration layers;
 - managed-service operations;
-- future enterprise collaboration, identity, workflow, integration or reporting capabilities that are not part of the public edition.
+- customer data;
+- future commercial implementation material not intentionally released.
 
-## Future commercial offerings
+## Future enterprise offering
 
-A future UTIOM commercial or enterprise offering may provide additional value around the public framework, for example:
+Future UTIOM commercial services may add APIs, integrations, automated evidence collection, continuous assurance, benchmarking, collaboration, enterprise reporting, access controls, managed services, professional assessment, implementation, training and support.
 
-- hosted or managed operation;
-- multi-user and multi-organisation workspaces;
-- SSO, RBAC and enterprise identity integration;
-- evidence collection, approvals and audit trails;
-- APIs and integrations with SIEM, SOAR, EDR, ticketing, GRC and other platforms;
-- continuous assurance and capability monitoring;
-- benchmarking and executive reporting;
-- automation, orchestration and managed services;
-- professional assessment, implementation, training or advisory services.
+Those capabilities remain proprietary or separately licensed unless expressly released under another licence.
 
-Commercial offerings should extend the public framework rather than silently remove capabilities that were already released as part of the public/community edition.
+## Attribution and branding
 
-## Licensing and brand
+Preferred attribution when UTIOM is cited or externally presented:
 
-Unless a file states otherwise, public UTIOM framework documentation and intentionally published public framework material are released under the stated UTIOM public licence, currently Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+> UTIOM — Unified Threat-Informed Operations Model by Reza Adineh — https://utiom.de
 
-CC BY-SA 4.0 permits reuse, adaptation and commercial use subject to its attribution and ShareAlike requirements. This project-boundary document does not modify that licence.
+A licence to framework material, assessment instruments or software does not grant permission to imply ownership, endorsement, partnership or official UTIOM status.
 
-The Creative Commons licence does not grant trademark rights in the UTIOM name, logos or other source-identifying brand elements.
+## Historical releases
+
+Previously distributed copies remain governed by the licence under which those specific copies were originally released. The current split licensing model does not attempt to revoke earlier grants.
 
 ## Principle
 
-**The public UTIOM framework and resources already released for free remain public under their stated licences. Future commercial offerings may add implementation, scale, automation, assurance, integration and services without changing that public commitment.**
+**Free to use is not a transfer of ownership. Public framework knowledge can remain accessible while software implementation, enterprise automation, scale and commercial services retain a separate licensing boundary.**
 
 Canonical website: https://utiom.de

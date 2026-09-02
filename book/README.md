@@ -1,22 +1,24 @@
 # UTIOM Framework Book
 
-## Current published edition: v1.1
+## Current published edition: v1.2
 
-The currently published **UTIOM Framework Book is version 1.1**.
+The current **UTIOM Framework Book is Book Edition v1.2**.
 
-Download the current book:
+Download:
 
-https://utiom.de/utiom-framework-v1.1.pdf
+https://utiom.de/downloads/UTIOM-Framework-v1.2.pdf
 
-The UTIOM framework, website and assessment toolkit have continued to evolve beyond the current book edition. A **new edition of the UTIOM Framework Book is in preparation and will be published soon**.
+Current version relationship:
 
-The repository deliberately keeps these versions distinct:
+- **UTIOM framework / assessment methodology:** v1.4
+- **UTIOM assessment workbook:** v1.4
+- **UTIOM self-hosted toolkit:** v1.4
+- **UTIOM Framework Book:** v1.2
 
-- **UTIOM framework / website:** v1.3
-- **UTIOM assessment toolkit:** v1.3
-- **UTIOM assessment workbook:** v1.3
-- **UTIOM Framework Book:** v1.1
+The versions are deliberately distinct. The v1.4 assessment architecture is not yet being relabelled as Book v1.3 or v1.4.
 
-The existing book must not be relabelled as v1.3. When the updated book is released, it should be added as a new versioned artifact while preserving v1.1 in the release history.
+The canonical historical origin description is **circa 2018**.
 
-Canonical UTIOM website: https://utiom.de
+The previous Book v1.1 remains part of the release history and should not be overwritten or relabelled.
+
+Canonical website: https://utiom.de

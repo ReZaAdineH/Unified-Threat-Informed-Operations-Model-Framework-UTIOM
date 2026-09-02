@@ -1,97 +1,83 @@
-# UTIOM Assessment, Measurement and Continuous Improvement
+# UTIOM v1.4 Assessment, Measurement and Continuous Improvement
 
-UTIOM v1.3 includes a public assessment system designed to answer three different questions: **Where are we? What should we improve? Did the improvement work?** The outputs can then be combined into an improvement roadmap and capability dashboard.
+UTIOM v1.4 preserves the public assessment content at **50 maturity criteria, 105 capability indicators and 70 metrics** while improving how results are interpreted at system level.
 
-## 1. Maturity Assessment
+## Staged Maturity Assessment
 
-**50 gated criteria across six maturity levels.**
+**50 gated criteria across six stages.**
 
-Question answered: **Where are we, honestly?**
+This assessment asks whether foundational maturity practices are actually established. Advanced practices do not compensate for a missing lower-stage foundation.
 
-The maturity model is staged rather than averaged. Advanced practices do not compensate for a missing lower-level foundation. If a required criterion at a lower level is not met, the maturity result is capped accordingly.
+Its result is the **Staged Maturity Assessment** result; it should not be confused with the official system-level Governed UTIOM Maturity result.
 
-This is intended to prevent maturity scores that look high because sophisticated activity exists in isolated areas while basic operating foundations remain absent.
+## Capability Assessment
 
-## 2. Capability Assessment
+**105 indicators across ten domains, scored 0–5.**
 
-**105 indicators across ten lifecycle domains, scored from 0–5.**
+This is the granular diagnostic view used to understand strengths, gaps and improvement priorities.
 
-Question answered: **What should we fix first?**
+Ten domains:
 
-The capability view provides more granular evidence about where operational depth is strong or weak. It complements the staged maturity result by exposing specific capability gaps that can be prioritised for engineering or governance action.
+- Vision & Governance
+- People & Operating Model
+- Strategy & Threat Profile
+- Crown Jewels
+- Threat Visibility
+- Threat Detection
+- Validation & Adversary Emulation
+- Threat Hunting
+- Response
+- Continuous Improvement
 
-## 3. Metrics Calculator
+## Three assessment tiers
 
-**70 leading and lagging metrics with explicit formulas.**
+### Tier 1 — Strategic & Governance Foundation
+Vision, People & Operating Model, Strategy, Crown Jewels.
 
-Question answered: **Did the fix actually work?**
+### Tier 2 — Engineering & Operational Capability
+Threat Visibility, Threat Detection, Threat Hunting, Response.
 
-The current public metric set includes operational measures such as:
+### Tier 3 — Assurance & Evolution
+Validation & Adversary Emulation, Continuous Improvement.
 
-- Mean Time to Detect (MTTD);
-- Mean Time to Contain (MTTC);
-- Mean Time to Respond / Recover where applicable;
-- validation rate;
-- crown-jewel coverage;
-- telemetry and detection quality measures;
-- response timing against relevant adversary breakout windows.
+The tiers are a system-integrity/sequencing view over the ten domains. They do not replace UTIOM's three pillars, seven lifecycle phases or three cross-cutting enablers.
 
-Metrics are not intended to reward activity volume. They should show whether the operating system is becoming more capable and whether risk-reduction decisions are producing measurable effects.
+## Diagnostic vs governed results
 
-## 4. Improvement Roadmap
+v1.4 distinguishes continuous diagnostic information from ordinal maturity claims:
 
-The roadmap combines assessment results into a sequenced improvement view.
+- **Diagnostic Capability / Tier Index** — continuous diagnostic information for prioritisation, comparison and trend analysis.
+- **Governed UTIOM Maturity** — the official system-level ordinal maturity result after the tier/system constraints are applied.
 
-Question answered: **So what do we actually do about it?**
+A stronger higher layer should not simply average away a weak layer required to sustain it.
 
-The objective is to turn findings into a practical backlog rather than leave them as maturity scores. The roadmap supports prioritised near-term work, including a 90-day improvement horizon where appropriate.
+## STRATA lens
 
-## 5. Capability Dashboard
+STRATA — Strategy, Talent, Resilience, Automation, Telemetry and Adaptability — helps interpret the organisational conditions behind capability results. It is not another maturity score and does not independently change UTIOM results.
 
-The dashboard is a **derived view** of completed assessments.
+## Metrics
 
-Question answered: **Why is the operation where it is?**
+**70 explicit leading and lagging metrics** provide evidence about whether capability and risk outcomes change. Examples include MTTD, decision latency, MTTC, validation rate, Crown Jewel coverage and response timing against relevant adversary windows.
 
-It presents:
+## Improvement roadmap
 
-- the seven UTIOM lifecycle phases;
-- supporting capability domains;
-- a derived STRATA lens that helps identify likely organisational constraints.
+The roadmap converts gaps into sequenced action. Where useful, it may recommend optional deeper ecosystem paths based on the observed gap:
 
-The dashboard does not add assessment questions and does not change the underlying scores.
+- **TID-CMM** for deeper threat visibility/detection capability;
+- **TIR-CMM** for deeper response readiness;
+- **RSMM** for SIEM/platform/telemetry/detection platform maturity;
+- **Threat Hunting / Daily Hunt** for deeper operational hunting practice.
 
-## The continuous improvement cycle
+These are follow-on diagnostic or improvement paths. They do **not** raise or blend into UTIOM scores.
 
-UTIOM expresses improvement as a repeating operating cycle:
+## Continuous improvement cycle
 
 **Assess → Prioritise → Engineer → Validate → Measure → Improve → Assess**
 
-**Continuous — not a one-off programme.**
-
-The important distinction is that assessment is not the destination. Assessment identifies what needs attention; engineering changes the system; validation proves whether it works; metrics show whether outcomes changed; Continuous Improvement feeds the evidence back into the next decision cycle.
+Assessment is not the destination. Engineering changes the system, validation proves whether it works, metrics show whether outcomes changed, and Continuous Improvement feeds evidence back into governance and Strategy.
 
 ## Privacy model
 
-The current public browser-based tools are designed with no UTIOM assessment backend, no UTIOM assessment database, no analytics and no signup. Assessment answers remain in the user’s browser/device so the tools can combine results locally.
-
-For organisations that prefer an offline or internal workflow, UTIOM also provides:
-
-- an assessment workbook;
-- a complete self-hosted toolkit;
-- Docker/nginx bootstrap configuration.
-
-Public downloads: https://utiom.de
-
-## Using UTIOM for a new or existing SOC
-
-### Building from scratch
-
-Start at Vision and work forward. Define purpose, operating model, Crown Jewels, threat priorities, visibility requirements, detection engineering, response capability and measurement before technology begins to determine the design.
-
-### Improving an existing SOC
-
-Use the assessments and roadmap to identify gaps and prioritise improvement. The same logic applies to internal, outsourced and hybrid Security Operations, whether reactive or already mature.
-
-UTIOM does not require the organisation to discard its existing tools, teams, standards or providers. It provides the operating logic that connects them.
+The public browser tools are designed without a UTIOM assessment backend, assessment database or analytics. Assessment answers remain in the user's browser/device. The self-hosted toolkit supports internal/offline use.
 
 Canonical assessment site: https://utiom.de/#tools

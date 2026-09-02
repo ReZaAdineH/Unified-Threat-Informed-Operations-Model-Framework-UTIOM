@@ -1,65 +1,49 @@
 # Roadmap and Evolution
 
-The UTIOM Ecosystem is intentionally evolving, but growth should remain disciplined.
+The UTIOM Ecosystem is intentionally evolving, but growth should remain disciplined and evidence-driven.
 
-The objective is not to create more frameworks simply to make the ecosystem larger. New work should solve a real Security Operations problem, fit clearly into the existing architecture, and be supported by practitioner evidence where possible.
+## Architectural guardrails
 
-## What may evolve
+Three pillars remain canonical: Leadership & Governance, Engineering & Enablement, Operations & Analysis.
 
-Future ecosystem development may include:
-
-- stronger assurance mechanisms;
-- additional standards and regulatory mappings;
-- more implementation guidance and worked examples;
-- richer evidence models;
-- research and benchmarking;
-- deeper assessment and prioritisation support;
-- integrations and automation;
-- new supporting services where they add a distinct and defensible capability.
-
-## What should not change casually
-
-The canonical UTIOM lifecycle remains:
+Seven lifecycle phases remain canonical:
 
 **Vision → Strategy → Crown Jewels → Threat Visibility → Threat Detection → Response → Continuous Improvement**
 
-The canonical pillars remain:
+Three cross-cutting enablers remain canonical:
 
-- Leadership & Governance
-- Engineering & Enablement
-- Operations & Analysis
+**Talent · Validation · Threat Hunting**
 
-A new ecosystem component should not be turned into a UTIOM phase simply because it is useful.
+The v1.4 assessment tiers and STRATA lens do not replace these structures.
 
-## Rule for introducing something new
+## Gap-driven deeper paths
 
-A proposed new component should be able to answer at least four questions:
+A UTIOM improvement roadmap may recommend optional deeper ecosystem work based on the observed gap:
 
-1. **What distinct problem does it solve?**
-2. **Where does it connect to the existing UTIOM operating model?**
-3. **Why can the problem not be handled cleanly by an existing component?**
-4. **What evidence or practitioner experience supports the need for it?**
+- TID-CMM for detection/visibility depth;
+- TIR-CMM for response readiness;
+- RSMM for SIEM/platform/telemetry/detection-platform maturity;
+- Threat Hunting / Daily Hunt for hunting practice.
 
-If those questions cannot be answered clearly, the idea may belong as guidance, a mapping, a metric, a research topic or a feature rather than as a new model.
+These recommendations are follow-on diagnostic/improvement paths, not scoring inputs that raise UTIOM maturity.
 
-## Public promise
+## Future development
 
-The ecosystem will continue to develop as useful evidence, practitioner experience and research emerge.
+Future work may include stronger assurance mechanisms, standards/regulatory mappings, implementation guidance, research, benchmarking, integrations, automation and additional supporting services where they solve a distinct problem.
 
-That does **not** mean every future idea will become a new maturity model, product or lifecycle element. The priority is coherence and usefulness rather than expansion for its own sake.
+Future enterprise capabilities such as automated evidence collection, continuous assurance, APIs, integrations, benchmarking, multi-team workflows and enterprise reporting can be developed without changing the free framework's canonical architecture.
 
-A suitable public statement is:
+## Rule for something new
 
-> **The UTIOM Ecosystem is intentionally evolving. Additional capability models, assurance mechanisms, mappings, research and supporting services may be introduced as they are validated and demonstrate a clear role within the operating model.**
+A proposed component should answer:
 
-And the architectural guardrail is:
+1. What distinct problem does it solve?
+2. Where does it connect to UTIOM?
+3. Why is an existing component insufficient?
+4. What evidence or practitioner experience supports it?
 
-> **Growth of the ecosystem does not mean expansion of the canonical UTIOM lifecycle. New components must support, measure, validate or enrich the existing operating model rather than redefine it without evidence.**
+Growth of the ecosystem does not mean growth of the canonical lifecycle.
 
-## Community role in evolution
-
-Proposed improvements should move through the public community process where appropriate:
+Community evolution should follow:
 
 **conversation → evidence → GitHub proposal → review → accepted change → versioned release**
-
-This keeps the ecosystem open to improvement while protecting conceptual consistency.

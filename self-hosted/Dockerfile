@@ -1,11 +1,14 @@
-FROM nginx:1.27-alpine
+FROM nginx:1.30.4-alpine
 
 LABEL org.opencontainers.image.title="UTIOM Assessment Toolkit"
 LABEL org.opencontainers.image.description="Self-hosted maturity, capability and metrics tools for the Unified Threat-Informed Operations Model"
 LABEL org.opencontainers.image.url="https://utiom.de"
 LABEL org.opencontainers.image.source="https://utiom.de"
-LABEL org.opencontainers.image.licenses="CC-BY-SA-4.0"
+LABEL org.opencontainers.image.licenses="PolyForm-Internal-Use-1.0.0"
 LABEL org.opencontainers.image.authors="Reza Adineh"
+LABEL org.opencontainers.image.version="1.4"
+LABEL org.opencontainers.image.vendor="UTIOM"
+LABEL org.opencontainers.image.documentation="https://utiom.de"
 
 RUN rm -rf /usr/share/nginx/html/*
 

@@ -2,261 +2,129 @@
 
 **Security operations designed as one system, not disconnected silos.**
 
-**Current public framework release: v1.3 · August 2026**  
-**Current UTIOM Framework Book: v1.1 — new edition coming soon**  
-**Canonical website: https://utiom.de**  
-**License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
+**Current public framework release: v1.4 · September 2026**  
+**Current UTIOM Framework Book: v1.2**  
+**Current assessment workbook/toolkit: v1.4**  
+**Canonical website: https://utiom.de**
 
-UTIOM is an open cybersecurity and **Security Operations Center (SOC) operating framework** for **threat-informed defense, security architecture, threat modeling, telemetry engineering, detection engineering, incident response, purple teaming and continuous improvement**. It connects leadership intent, threat understanding, engineering discipline, operational response and measurable improvement into one connected system.
+UTIOM is a threat-informed **Security Operations operating framework** created by **Reza Adineh**. It connects leadership intent, business consequence, threat understanding, engineering discipline, operational response, evidence and continuous improvement into one system.
 
-**Focus areas:** Security Operations · SOC Architecture · Threat-Informed Defense · Threat Modeling · Telemetry Engineering · Detection Engineering · Incident Response · Threat Intelligence · Purple Teaming · MITRE ATT&CK · NIST CSF · SOC Maturity
+> **Purpose → strategy → business consequence → relevant threats → attack paths → required evidence → engineered visibility → engineered detection → operational response → validation → measurable improvement.**
 
-The model is built around a simple premise: security operations should not begin with tools, telemetry volume, alert counts or isolated controls. They should begin with purpose, business consequence and relevant threats, then engineer the visibility, detection and response capabilities required to protect what matters.
+UTIOM treats Security Operations as a **living product and socio-technical system**, not a collection of independently optimised tools and teams.
 
-> **Purpose first → strategy first → business consequence → relevant threats → attack paths → required evidence → engineered visibility → engineered detection → operational response → measurable improvement.**
+## Canonical architecture
 
-UTIOM treats security operations as a **living product**, a **living system**, and an **operating model for the security program** rather than a collection of independent SOC functions.
+### Three operating pillars
 
----
+- **Leadership & Governance** — the management and control plane of UTIOM. It establishes Vision, Strategy, Crown Jewel priorities, decision authority, investment, governance and performance oversight, and receives operational evidence through the strategic feedback loop.
+- **Engineering & Enablement** — builds and maintains the evidence, telemetry, detection and enabling mechanisms required by the threat-informed design.
+- **Operations & Analysis** — monitors, analyses, investigates, decides, responds and feeds operational evidence back into the system.
 
-## Explore the UTIOM Ecosystem
+### Seven lifecycle phases
 
-The [`wiki/`](wiki/) directory is the human-friendly map of the wider UTIOM ecosystem: what exists today, how UTIOM, TID-CMM, TIR-CMM, RSMM and KEVMAP fit together, how the community works, and how the ecosystem can evolve without changing the canonical UTIOM lifecycle by accident.
+**Vision → Strategy → Crown Jewels → Threat Visibility → Threat Detection → Response → Continuous Improvement**
 
-Start here: **[UTIOM Ecosystem Wiki](wiki/README.md)**
+The phases have ordered dependencies, but UTIOM is not a rigid waterfall. Engineering, operations and validation iterate continuously.
 
-Key pages:
+### Three cross-cutting enablers
 
-- [Home — UTIOM Ecosystem](wiki/Home.md)
-- [The UTIOM Ecosystem Today](wiki/The-UTIOM-Ecosystem-Today.md)
-- [How the Ecosystem Fits Together](wiki/How-the-Ecosystem-Fits-Together.md)
-- [Community and Contribution](wiki/Community-and-Contribution.md)
-- [Roadmap and Evolution](wiki/Roadmap-and-Evolution.md)
+- **Talent**
+- **Validation**
+- **Threat Hunting**
 
-> **UTIOM defines the operating model. Supporting models measure capability depth or add decision context. They do not become additional UTIOM lifecycle phases.**
+These are **not lifecycle phases**. They operate across multiple phases and pillars, even where they have a primary assessment home.
 
----
+### STRATA organisational lens
 
-## Public knowledge base
+**Strategy · Talent · Resilience · Automation · Telemetry · Adaptability**
 
-The [`docs/`](docs/) directory mirrors the public UTIOM knowledge surface in crawlable, citation-friendly Markdown so practitioners, researchers, search engines and generative AI systems can resolve the framework accurately.
+STRATA describes organisational conditions that enable UTIOM. It does not replace the pillars, lifecycle or cross-cutting enablers and does not independently change UTIOM scores.
 
-Start with [`docs/README.md`](docs/README.md). It includes dedicated pages for:
+### Three v1.4 assessment tiers
 
-- the UTIOM definition, lifecycle, three pillars and Seven Laws;
-- Threat Profiling, Crown Jewels, threat models, attack paths and threat-to-outcome traceability;
-- Threat Visibility, Telemetry Engineering, assured telemetry, Detection Engineering and Detection QA;
-- the UTIOM V-Model, Purple Team validation and Response Horizon;
-- maturity, capability, metrics, roadmap and capability dashboard;
-- the UTIOM framework family: TID-CMM, TIR-CMM, RSMM and KEVMAP;
-- NIST CSF 2.0, ISO/IEC 27001:2022, MITRE ATT&CK, SOC-CMM, NIS2 and DORA alignment;
-- SOC operating-model guidance for greenfield, existing, internal, outsourced and hybrid SOCs;
-- Security Operations economics and risk-reduction-per-investment thinking;
-- traditional SOC vs UTIOM comparison;
-- direct FAQ answers and a terminology/entity map for search and generative-engine discovery.
+1. **Strategic & Governance Foundation**
+2. **Engineering & Operational Capability**
+3. **Assurance & Evolution**
 
-See the [public site content index](docs/20-site-content-index.md) for the canonical mapping between `utiom.de` topics and the GitHub documentation mirror.
+The tiers provide a **system-integrity view of assessment results**. They do not replace UTIOM's three pillars, seven lifecycle phases or three cross-cutting enablers.
 
----
+## Assessment architecture
 
-## Public downloads
+UTIOM v1.4 preserves the existing public assessment content:
 
-UTIOM is intentionally published with free public/community resources so organisations can study the framework, assess themselves offline and run the public toolkit locally.
+- **50 staged maturity criteria**
+- **105 capability indicators across 10 domains**
+- **70 explicit metrics**
+- Improvement Roadmap
+- Capability Dashboard
 
-| Public artifact | Current version | Access |
-| --- | ---: | --- |
-| UTIOM framework / website | **v1.3** | https://utiom.de |
-| Assessment workbook | **v1.3** | https://utiom.de/utiom-assessment-workbook.xlsx |
-| Complete self-hosted assessment toolkit | **v1.3** | https://utiom.de/utiom-assessment-toolkit.zip |
-| UTIOM Framework Book | **v1.1** | https://utiom.de/utiom-framework-v1.1.pdf |
+v1.4 separates different result types more clearly:
 
-> **Book edition note:** the currently published book remains **v1.1**. The framework and toolkit have continued to evolve to v1.3. A **new edition of the UTIOM Framework Book is in preparation and will be published soon**. The existing v1.1 book is not being relabelled as v1.3.
+- **Staged Maturity Assessment** — evaluates whether foundational practices are established across the six stages.
+- **Diagnostic Capability / Tier Index** — continuous diagnostic information for prioritisation and comparison.
+- **Governed UTIOM Maturity** — the official system-level ordinal maturity result after tier/system constraints are applied.
 
-See [`downloads/README.md`](downloads/README.md) for the public distribution index and [`self-hosted/`](self-hosted/) for the Docker/nginx bootstrap configuration.
-
----
-
-## Core diagrams
-
-### UTIOM operating model
-
-The operating model shows the three pillars, seven canonical phases, the engineering/operations OODA loop and the strategic decision-making feedback loop.
-
-<p align="center">
-  <a href="diagrams/utiom-operating-model.svg">
-    <img src="diagrams/utiom-operating-model.svg" alt="UTIOM operating model" width="1200">
-  </a>
-</p>
-
-<p align="center"><sub><b>Click the diagram to open the full-size SVG.</b></sub></p>
-
-### UTIOM V-Model
-
-The V-model pairs design and intent on the left with validation and operation on the right. Each major design decision must be proven operationally rather than accepted as an assumption.
-
-<p align="center">
-  <a href="diagrams/utiom-v-model.svg">
-    <img src="diagrams/utiom-v-model.svg" alt="UTIOM V-Model" width="1200" style="width:100%;max-width:1200px;height:auto;">
-  </a>
-</p>
-
-<p align="center"><sub><b>Click the diagram to open the full-size SVG.</b></sub></p>
-
----
-
-## Canonical UTIOM lifecycle
-
-UTIOM has exactly seven lifecycle phases:
-
-1. **Vision**
-2. **Strategy**
-3. **Crown Jewels**
-4. **Threat Visibility**
-5. **Threat Detection**
-6. **Response**
-7. **Continuous Improvement**
-
-The lifecycle contains ordered dependencies, but it is **not a rigid waterfall**. Engineering, operations and validation run iteratively, and operational evidence continuously feeds back into leadership decisions and future engineering work.
-
----
-
-## Three operating pillars
-
-- **Leadership & Governance**
-- **Engineering & Enablement**
-- **Operations & Analysis**
-
-The purpose of the pillars is not to create new silos. Their purpose is to make ownership clear while preserving one connected operating model.
-
----
+Advanced activity should not simply average away missing system foundations.
 
 ## Threat-to-outcome traceability
 
-A core UTIOM requirement is end-to-end traceability:
+**Business consequence → Crown Jewel → asset/dependency → relevant adversary → realistic attack path → ATT&CK behaviour → required evidence → telemetry → detection/hunt → analysis → decision → response → validation → governance review → strategy/investment change**
 
-**Business purpose**  
-→ **Security Operations Strategy**  
-→ **Threat Profiling**  
-→ **Crown Jewels & Critical Services**  
-→ **Threat Models**  
-→ **Dependencies & Trust Boundaries**  
-→ **Attack Paths**  
-→ **Required Adversary Evidence**  
-→ **Telemetry Engineering / Assurance**  
-→ **Threat Detection / Detection Engineering**  
-→ **Detection Validation**  
-→ **Analysis & Decision**  
-→ **Response**  
-→ **Metrics & Evidence**  
-→ **Continuous Improvement**
+If required evidence does not exist, the gap becomes a **Telemetry Engineering requirement**.
 
-If an important behaviour must be observable but the evidence does not exist, the gap becomes a **Telemetry Engineering requirement** rather than being passively accepted as a detection limitation.
+## Framework family and improvement paths
 
----
+UTIOM remains independently usable as the overarching operating model. Supporting models and services provide optional deeper analysis when UTIOM results indicate a relevant gap; they are not blended into UTIOM scoring and do not raise UTIOM maturity automatically.
 
-## Validation is part of the operating model
+- **TID-CMM** — deeper threat-informed detection and visibility capability — https://tid-cmm.com
+- **TIR-CMM** — deeper threat-informed response readiness — https://tir-cmm.com
+- **RSMM** — deeper SIEM/monitoring-platform maturity where telemetry, detection or platform capability needs attention — https://rsmm.rezaadineh.com/
+- **Threat Hunting / Daily Hunt** — deeper operational hunting improvement path — https://hunt.utiom.de/
+- **KEVMAP** — exploited-vulnerability and exposure context — https://kevmap.io
 
-UTIOM pairs design with evidence that the design works.
+## Public downloads
 
-**Purple Teaming + Detection QA + Response Exercising** validate the chain:
+| Public artifact | Current version | Canonical access |
+| --- | ---: | --- |
+| UTIOM framework / website | **v1.4** | https://utiom.de |
+| Assessment workbook | **v1.4** | https://utiom.de/utiom-assessment-workbook.xlsx |
+| Self-hosted assessment toolkit | **v1.4** | https://utiom.de/utiom-assessment-toolkit-v1.4.zip |
+| UTIOM Framework Book | **v1.2** | https://utiom.de/downloads/UTIOM-Framework-v1.2.pdf |
 
-**Attack path → telemetry → detection → alert → analysis → decision → response**
+Book v1.2 remains Book Edition v1.2; the v1.4 assessment architecture is not being falsely relabelled as a new book edition.
 
-Validation findings belong to the phase that owns the weakness. Missing evidence belongs in Telemetry Engineering; a silent or noisy rule belongs in the detection lifecycle; slow decision-making belongs in authority and response design; systemic lessons belong in Continuous Improvement.
+## Repository scope
 
----
+This is the **public framework and community repository**. It contains intentionally public doctrine, documentation, diagrams, mappings, guidance, citation material and the limited self-hosting bootstrap configuration.
 
-## Assessment and measurement
+It does **not** expose private production infrastructure, credentials, private APIs, customer data, unreleased enterprise automation, proprietary managed-service logic or future commercial implementation material.
 
-UTIOM includes public browser-based assessment instruments for maturity, capability, metrics and improvement planning. The objective is not maturity for its own sake, but measurable operational capability and demonstrable risk reduction.
+## Licensing boundary
 
-The current public site provides:
+UTIOM uses a split licensing model:
 
-- **Maturity Assessment — 50 staged criteria**
-- **Capability Assessment — 105 indicators**
-- **Metrics Calculator — 70 explicit metrics**
-- **Improvement Roadmap**
-- **Capability Dashboard**
+- **Framework / methodology / Book / framework diagrams / public framework documentation:** CC BY-SA 4.0.
+- **Software and self-hosted implementation:** PolyForm Internal Use License 1.0.0.
+- **Assessment workbook and non-software free assessment instruments:** UTIOM Free Assessment Use Terms.
+- **Future enterprise/commercial functionality:** proprietary unless separately licensed.
 
-The public assessment tools run in the browser and are designed so assessment answers are not transmitted to a UTIOM backend.
+Free access means **free to use within the granted terms**, not transfer of ownership and not unrestricted rights to repackage, resell, white-label or offer a competing hosted implementation.
 
-Start at: https://utiom.de
+Historical copies remain governed by the licence under which those copies were originally released.
 
----
+See [`LICENSE`](LICENSE), [`LICENSE-FRAMEWORK.md`](LICENSE-FRAMEWORK.md), [`LICENSE-SOFTWARE.md`](LICENSE-SOFTWARE.md), [`LICENSE-ASSESSMENT.md`](LICENSE-ASSESSMENT.md) and [`PUBLIC-COMMERCIAL-BOUNDARY.md`](PUBLIC-COMMERCIAL-BOUNDARY.md).
 
-## Framework family
+## Community
 
-UTIOM is the overarching operating model. Supporting models add measurement depth or decision context without becoming additional UTIOM lifecycle phases.
-
-- **TID-CMM — Threat-Informed Detection Capability Maturity Model** — https://tid-cmm.com
-- **TIR-CMM — Threat-Informed Response Capability Maturity Model** — https://tir-cmm.com
-- **RSMM — Realistic SIEM Maturity Model** — https://rsmm.rezaadineh.com/
-- **KEVMAP** — known-exploited-vulnerability and exposure context — https://kevmap.io
-
----
-
-## Join the UTIOM community
-
-UTIOM is an open, living framework intended to improve through practitioner experience, transparent peer review and evidence-backed challenge.
-
-Good ways to participate include:
-
-- share a real implementation story from an internal, outsourced, hybrid, cloud or OT/ICS security-operations environment;
-- propose a framework clarification, mapping, metric, assessment or implementation improvement;
-- contribute lessons from Threat Profiling, threat modelling, Telemetry Engineering, Detection Engineering, Detection QA, Purple Teaming or incident response;
-- review public releases and identify ambiguity, evidence gaps or practical implementation friction;
-- contribute to the quarterly **Kaizen community review** and improvement backlog.
-
-Start with [`COMMUNITY.md`](COMMUNITY.md), read [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md), then use the issue templates to participate.
-
-Current community starting points:
-
-- [Introduce yourself and what you want to improve](https://github.com/ReZaAdineH/Unified-Threat-Informed-Operations-Model-Framework-UTIOM/issues/1)
-- [Share a real UTIOM implementation story](https://github.com/ReZaAdineH/Unified-Threat-Informed-Operations-Model-Framework-UTIOM/issues/2)
-- [Quarterly Kaizen community improvement backlog](https://github.com/ReZaAdineH/Unified-Threat-Informed-Operations-Model-Framework-UTIOM/issues/3)
-
----
-
-## Relationship to established standards
-
-UTIOM does **not** replace MITRE ATT&CK, NIST, ISO, NIS2, DORA, SOC-CMM or other established frameworks and regulations.
-
-It provides an operating model that helps translate governance, threat knowledge, engineering and response requirements into connected operational work.
-
----
-
-## Repository scope and public/commercial boundary
-
-This repository is the **public framework and community repository** for UTIOM.
-
-It may contain:
-
-- framework doctrine and terminology;
-- lifecycle and pillar documentation;
-- public diagrams;
-- public mappings;
-- implementation guidance and examples;
-- assessment descriptions and public assessment artifacts;
-- the public self-hosting/bootstrap configuration;
-- research and citation material;
-- change history.
-
-It intentionally does **not** expose private production infrastructure, credentials, private administrative functionality, proprietary enterprise automation, customer data, non-public APIs or future commercial implementation material that has not been intentionally released.
-
-**A publicly available framework, workbook or self-hosted community edition does not imply that every current or future UTIOM implementation is open source or must be provided free of charge.**
-
-Material intentionally released for free remains available under the licence stated for that material. Future commercial offerings may add enterprise scale, collaboration, integrations, assurance, automation, hosting and professional services without retroactively withdrawing the public edition.
-
-See [`PUBLIC-COMMERCIAL-BOUNDARY.md`](PUBLIC-COMMERCIAL-BOUNDARY.md).
-
----
+UTIOM is intended to improve through practitioner use, evidence-backed criticism and transparent peer review. Start with [`COMMUNITY.md`](COMMUNITY.md) and [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Author
 
 **Reza Adineh**  
 Creator of the Unified Threat-Informed Operations Model (UTIOM)
 
-Website: https://utiom.de  
-Author: https://rezaadineh.com
+Canonical website: https://utiom.de  
+Author site: https://rezaadineh.com
 
 **Think smarter. Stay secure.**
